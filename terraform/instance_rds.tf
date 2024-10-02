@@ -6,7 +6,7 @@ resource "aws_db_instance" "rds_postgres" {
   instance_class       = "db.t3.medium"
   db_name              = "todolist_db_rds"
   username             = "postgresrds"
-  password             = "rdsdb12435"
+  password             = "1402AcLq"
   publicly_accessible  = true
   skip_final_snapshot  = true
   vpc_security_group_ids = [aws_security_group.rules_todolist.id]
