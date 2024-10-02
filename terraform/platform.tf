@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "antonjoacir"
+    bucket = "devops540615"
     key    = "state"
     region = "us-east-1"
   }
